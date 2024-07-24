@@ -10,6 +10,8 @@ import {
     _xd, //XData - Xpell real-time data cache internal module
  }   from "xpell"
 
+
+
  import {DynaSphere} from "./dyna-sphere"
 
 //import style sheet
@@ -23,7 +25,6 @@ import "../public/style.css"
     X3D.createPlayer("x3d-player","x3d-player") //create 3D player in layer 1
     XUI.createPlayer("xplayer","xplayer") //create UI player in layer 2
     X3D.loadDefaultApp(true,"transparent") //load default 3D app with transparent background and orbit controls
-    
     X3D.importObject(DynaSphere.xtype,DynaSphere) //import DynaSphere object
     //create main view 
     XUI.add({

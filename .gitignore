@@ -105,11 +105,5 @@ dist
 
 
 #aime
-setting
-public/dist/
-public/videos/
-code-examples.txt
-ignore
 models_ignore
-tsconfig.json
 **/.DS_Store
