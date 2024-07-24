@@ -18,21 +18,3 @@ This project is a 3D Audio Visualizer using Xpell 3D and Three.js. The project i
 
 ```npm run dev``` required Aime server to configure on index.ts
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-- Create Xpell based project
-- Create X3DObject Name "DynaSphere"
-- Add Audio Visualizer logic to X3DObject onFrame
-- Add XUI to control Audio Visualizer
-
